@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -150,4 +151,158 @@ header > h3::before{
 
 i.fab:hover {
     color: #8739FA;
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Euclid Circular A", Poppins;
+}
+
+a:link{
+    text-decoration: none;
+}
+.container {
+    background: #151418;
+    opacity: 5;
+    height: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.emblem {
+    z-index: 0;
+    border-radius: 30%;
+    transform: rotate(45deg);
+}
+
+.emblem.one{
+    height: 800px;
+    width: 800px;
+    position: absolute;
+    border-radius: 20%;
+    left: -49%;
+    top: -10%;
+    background: rgba(69, 66, 77, 0.425);
+    opacity: 5;
+}
+
+.emblem.two{
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    background: rgba(69, 66, 77, 0.98);
+}
+
+.emblem.tre{
+    height: 6rem;
+    width: 6rem;
+    position: absolute;
+    top: 30px;
+    right: 450px;
+    background: rgba(69, 66, 77, 0.5);
+}
+
+.emblem.four{
+    height: 3em;
+    width: 3rem;
+    position: absolute;
+    top: 200px;
+    right: 160px;
+    background: rgba(69, 66, 77, 0.9);
+}
+
+.emblem.six{
+    height: 9rem;
+    width: 9rem;
+    position: absolute;
+    top: 380px;
+    right: 50px;
+    background: rgba(69, 66, 77, 0.2);
+}
+
+.emblem.seven{
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    top: 550px;
+    left: 550px;
+    background: rgba(69, 66, 77, 0.9);
+}
+
+header {
+    position: absolute;
+    margin-top: 15px;
+    top: 0;
+    height: 40px;
+    width: 1000px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.96);
+    
+}
+
+header > h3 {
+    z-index: 1;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: normal;
+}
+header > h3::before{
+    content: "";
+    position: absolute;
+    left: 17%;
+    top: 39%;
+    border-radius: 30%;
+    z-index: -1;
+    height: 45px;
+    width: 45px;
+    background: #8739FA;
+    transform: rotate(45deg);
+}
+
+.menu {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu > a {
+    color: #F6F6F6;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.sosmed-menu {
+    position: absolute;
+    height: 220px;
+    width: 50px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: transparent;
+    top: 200px;
+    left: 30px;
+}
+
+.sosmed-menu > i {
+    background: transparent;
+    font-size: 30px;
+    font-weight: 400;
+    opacity: 9;
+    cursor: pointer;
+    color: #fff;
+}
+
+i.fab:hover {
+    color: #8739FA;
+>>>>>>> 98294d8 (k)
 }
