@@ -71,7 +71,7 @@ a:link{
 
 @media (min-width: 320px){
     .background-cool{
-        width: 320px;
+        width: 360px;
         height: 100vh;
     }
     .emblem.one {
