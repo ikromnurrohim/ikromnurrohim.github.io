@@ -4,6 +4,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -87,12 +88,12 @@ a:link {
 }
 
 header {
-	position: absolute;
-	margin-top: 15px;
-	top: 0;
+	background: black;
+	position: fixed;
+	top: 4%;
 	height: 40px;
-	width: 10px;
-	padding: 20px;
+	width: 360px;
+	padding: 20px ;
 	display: flex;
 	justify-content: space-between;
 	color: rgba(255, 255, 255, 0.96);
@@ -120,11 +121,7 @@ header > h3::before {
 	transform: rotate(45deg);
 }
 
-.menu {
-	width: 80px;
-	display: flex;
-	position: relative;
-}
+
 .menu > a {
 	align-items: flex-end;
 	color: #f6f6f6;
@@ -190,7 +187,7 @@ header > h3::before {
 }
 
 .block {
-	background: black;
+	background: transparent;
 	animation: mouse 2s infinite linear;
 	display: flex;
 	justify-content: center;
@@ -198,7 +195,9 @@ header > h3::before {
 	width: 200px;
 	cursor: pointer;
 	position: relative;
-	margin: auto;
+	margin-top: -80px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .mouse {
